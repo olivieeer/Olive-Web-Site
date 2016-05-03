@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+    <services>
+        <service>
+            <id>1</id>
+            <title>Développement d'application javaEE, application Web</title>
+            <detail>frameworks: struts, spring, hibernate, maven.</detail>
+            <body>frameworks: struts, spring, hibernate, maven.</body>
+        </service>
+    <service>
+        <id>2</id>
+        <title>Création de site web responsive,</title>
+        <detail>technologies: HTML5, CSS3, Bootstrap, AngularJs, Jquery, Ajax.</detail>
+        <body>technologies: HTML5, CSS3, Bootstrap, AngularJs, Jquery, Ajax.</body>
+    </service>
+    <service>
+        <id>3</id>
+        <title>Mise à niveau de site web existant</title>
+        <detail>technologies: HTML5, CSS3, Bootstrap, AngularJs, Jquery, Ajax.</detail>
+        <body>Don't forget me this weekend!</body>
+    </service>
+    <service>
+        <id>4</id>
+        <title>xxxx</title>
+        <detail>details XXX</detail>
+        <body>Don't forget me this weekend!</body>
+    </service>
+    </services>

@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background:url("../img/confectionary.png");
 }
 
 p {
@@ -63,6 +64,14 @@ hr.star-primary2 {
 .inline{
 	display: inline-block;
 }
+.entrepriseName {
+    text-transform : uppercase;
+    font-weight : bold;
+}
+.dateMission {
+    font-size : 0.8em;
+    font-weight : bold;
+}
 .icon{
 	width: 130px;
 	height:130px;
@@ -81,6 +90,7 @@ hr.star-primary2 {
 }
 #portfolio, #competences, #Experience, #Services, #Contact {
 	 background-color: #EDEDED;
+    background:url("../img/confectionary.png");
 }
 .borderRadius {
 	border-radius: 10px;
@@ -94,7 +104,7 @@ hr.star-primary2 {
 }
 [class*="col-"], footer {
 					/*background-color: #E2BC74;*/
-         /*  border: 2px solid black */;
+          /* border: 2px solid black; */
           border-radius: 6px;	
           line-height: 40px; 
         }
@@ -142,7 +152,9 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
-.lienDroite {align:right;}
+.lienDroite {
+	align:right;
+}
 header {
     text-align: center;
     color: #fff;
@@ -159,6 +171,26 @@ header .container {
 }
 .grow:hover { 
 	transform: scale(1.25);
+}
+.borderHover {
+	background-color: #fff;	
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+.borderHover:hover {
+	background-color: #fff;	
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	border: 2px solid grey;
+	-webkit-box-shadow: 10px 10px 10px red;
+	box-shadow: 10px 10px 10px red;
+}
+#detail {
+	width: 400px;
+	height: 200px;
+	background-color: gray;
 }
 header img {
     display: block;
@@ -295,7 +327,7 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: O.5;
+    opacity: 0.5;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -373,7 +405,7 @@ section.success a.active {
     position: relative;
     top: 2em;
     margin: 0;
-    font-size: .85em;
+    font-size: 1.4em;
     line-height: 1.764705882em;
     vertical-align: middle;
     vertical-align: baseline;
